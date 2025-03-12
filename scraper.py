@@ -40,7 +40,7 @@ VALID_FLAT_TYPES = [
     "Atypický",
 ]
 
-# heades to mimic browser request
+# headers to mimic browser request
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
 }
@@ -185,7 +185,7 @@ if __name__ == "__main__":
         estate_type, region, num_pages = validate_args(
             sys.argv[1], sys.argv[2], sys.argv[3]
         )
-        print(f"✅ Scraping {num_pages} pages of {estate_type} in {region}...")
+        print(f"Scraping {num_pages} pages of {estate_type} in {region}...")
 
         data = scrape_multiple_pages(estate_type, region, num_pages)
 
