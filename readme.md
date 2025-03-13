@@ -53,14 +53,14 @@ The script saves listings to a **CSV file** named:
 sreality_<estate_type>_<region>_<timestamp>.csv
 ```
 
-### **CSV Structure**
+### CSV Structure
 
-#### **Flats**
+#### Flats
 
-| Title | Property Type | Usable Area (m²) | Flat Type | Location | Price (CZK) | URL | Image |
-| ----- | ------------- | ---------------- | --------- | -------- | ----------- | --- | ----- |
+| Title | Property Type | Usable Area (m²) | Flat Type | Location | Region | District | City | Energy Rank | Price (CZK) | URL | Image |
+| ----- | ------------- | ---------------- | --------- | -------- | ------ | -------- | ---- | ----------- | ----------- | --- | ----- |
 
-#### **Houses**
+#### Houses
 
-| Title | Property Type | Usable Area (m²) | Land Size (m²) | Location | Price (CZK) | URL | Image |
-| ----- | ------------- | ---------------- | -------------- | -------- | ----------- | --- | ----- |
+| Title | Property Type | Usable Area (m²) | Land Size (m²) | Location | Region | District | City | Energy Rank | Price (CZK) | URL | Image |
+| ----- | ------------- | ---------------- | -------------- | -------- | ------ | -------- | ---- | ----------- | ----------- | --- | ----- |
